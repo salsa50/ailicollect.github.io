@@ -1,0 +1,325 @@
+body.index{
+   background:linear-gradient(rgba(23, 22,22, 0.5), rgba(12, 12, 12, 0.5)),
+   url('aili.colec.jpg');
+   background-size: cover;
+   background-size: 1345px 710px;
+}
+body{
+    margin: 0;
+}
+.home-parent-div{
+    width: 1000px;
+    margin: auto;
+    margin-top: 190px;
+    font-family: "Handlee", serif;
+}  
+.home-children-div{
+    color: white;
+    width: 50%; 
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.home-link-contain a{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    letter-spacing: 3px;
+
+}
+.home-children-div h1{
+    font-size: 30px; 
+    letter-spacing: 3px;
+    text-align: center;
+}
+.home-children-div p{
+    font-size: 27px;
+    text-align: center; 
+}
+#left-home-child{
+    margin-top: 30px;
+}
+.home-link-contain{
+    margin-bottom: 25px; 
+}
+.home-to-about-btn{
+     border: 1px solid white;
+    border-radius: 14px;
+    background-color: transparent; 
+    color: white;
+    padding: 12px 21px;
+    font-size: 17px;
+}
+a.home-to-about-btn{
+    text-decoration: none;
+    text-align: center;
+}
+.to-about-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+.body-about{
+    width: 100%;
+    font-family: "Handlee", serif;
+}
+.navigasi{
+    width: 100%;
+}
+.navigasi-contain{
+    width: 1200px;
+    padding: 18px 0px;
+    color: white;
+    margin: auto; 
+    font-size: 22px;
+}
+.navigasi-contain a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.about-parent-div{
+    width: 960px;
+    margin: auto;
+}
+.about-title-div{
+    margin-top: 34px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+
+}
+.about-children-div{
+    width: 50%;
+    box-sizing: border-box;
+}
+.about-logo-contain{
+    width: 70%;
+    margin: 30px auto;
+}
+.about-logo-contain img{
+    border-radius: 50%;
+}
+.about-children-div p{
+    font-size: 16px;
+}
+.body-contact{
+    width: 100%;
+    height: 170vh;
+}
+.body-contact .navigasi{
+    font-family: "Handlee", serif;
+}
+.body-contact-half{
+    font-family: "Handlee", serif;
+    font-size: 12px;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box; 
+    padding-top: 110px;
+    background-color: black;
+    color: white;
+}
+.black-bgcolor{
+    background-color: black;
+}
+.absolute{
+    position: absolute;
+}
+.contact-form-container{
+    font-family: "Roboto", sans-serif;
+    width: 80%;
+    margin: 20px 70px;
+    font-size: 20px;
+}
+.form-contact{
+    margin-top: 50px;
+}
+.form-contact label{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 13px; 
+
+}
+.form-contact input{
+    line-height: 2;
+    font-size: 15px;
+    width: 250px;
+    margin-bottom: 20px;
+
+}
+.form-contact input[type='submit']{
+    display: block; 
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: transparent; 
+    color: white;
+    padding: 9px 18px;
+    font-size: 17px;
+    width: 150px;
+}
+.map-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.map{
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+    color: white;
+}
+.body-about{
+    width: 100%;
+}
+.newarrival-parent-div{
+    width: 1000px;
+    margin: 60px auto;
+}
+.newarrival-children-div{
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+.newarrival-title-div h1{
+    font-size: 30px;
+    text-align: center;
+}
+.newarrival-main-product-contain{
+    width: 53%;
+    margin: auto;
+}
+.newarrival-main-product-image img{
+    border-radius: 50%;
+}
+.newarrival-main-product-name h2{
+    text-align: center;
+    font-size: 23px;
+}
+.newarrival-discount-contain{
+    display: inline-block;
+    width: 150px;
+    color: red;
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+.newarrival-discount-number{
+    font-size: 50px;
+}
+.newarrival-discount-text{
+    font-size: 40px;
+    text-align: right;
+}
+.newarrival-item-contain{
+    width: 80%;
+    margin: 30px auto;
+    background-color: grey;
+}
+.newarrival-item-image{
+    width: 38%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.newarrival-item-desc{
+    width: 50%;
+     box-sizing: border-box;
+     margin: 10px;
+     text-align: right;
+     font-size: 15px;
+}
+.newarrival-item-desc h2:last-child{
+    color: blue;
+}
+.newarrival-item-contain:nth-child(2) .newarrival-item-desc{
+    text-align: left;
+}
+.body-product{
+    width: 100%;
+    font-family: "Handlee", serif;
+}
+.product-parent-div{
+    width: 1100px;
+    margin: 90px auto;
+}
+.product-children-div-left{
+    width: 20%;
+    box-sizing: border-box;
+}
+.product-children-div-right{
+    width: 75%;
+    box-sizing: border-box;
+}
+.brand-contain{
+    background-color: black;
+    width: 100%;
+}
+.brand-item-contain{
+    padding: 11px 50px;
+}
+.brand-item-contain h2{
+    font-size: 25px;
+    color: white;
+}
+.brand-item-contain li{
+    list-style-type: none;
+    line-height: 1.8;
+    font-size: 20px;
+}
+.brand-item-contain li a{
+    text-decoration: none;
+    color: white;
+}
+.brand-item-contain li a:hover{
+    color: white;
+}
+.product-item-contain{
+    width: 20%;
+    display: inline-block;
+    margin: 1.8%;
+}
+.product-item-image-contain{
+    margin-bottom: 10px;
+}
+.product-item-name-contain{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+}
+.product-item-desc-contain{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product-item-price-contain{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.product-buy{
+    margin-top: 34px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: black; 
+    color: white;
+    padding: 9px 18px;
+    font-size: 17px;
+    width: 150px;
+}
+.product-buy A{
+    text-decoration: none;
+    color: white;
+}
